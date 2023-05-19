@@ -1,0 +1,59 @@
+<div class="hero-background">
+    <div class="hero-container container">
+        <div class="hero-content">
+            <p class="hero-text">👋 Hello</p>
+            <h1 class="hero-heading gradient-text">I am<br />Mateus Abelli</h1>
+            <p class="hero-subheading">Software Developer</p>
+            <p class="body-text">🚧 Website under Development 🚧</p>
+        </div>
+        <div>
+            <div class="hero-picture">
+                <img src="pfp.png" alt="" />
+                <div class="blur-circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style lang="scss">
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .hero-background {
+        display: grid;
+        height: 100vh;
+        background-color: #191d25;
+        background: linear-gradient(to top left, #191d25 60%, #273041 100%);
+
+        > .hero-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    .hero-picture {
+        position: relative;
+
+        > img {
+            position: inherit;
+            overflow: hidden;
+            border-radius: 100%;
+            width: 20rem;
+            z-index: 1;
+            box-shadow: 6px 20px 8px rgba(25, 29, 37, 0.25);
+        }
+
+        > .blur-circle {
+            position: absolute;
+            inset: 60px;
+            background-color: #dbae8e;
+            border-radius: 100%;
+            filter: blur(70px);
+        }
+    }
+</style>

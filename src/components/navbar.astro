@@ -1,0 +1,57 @@
+<div class="nav-background">
+    <div class="nav-container container">
+        <nav class="nav-links body-text">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Tools</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="buttons-container body-text-small">
+            <button class="button">
+                en-us
+            </button>
+            <button class="button">
+                Light
+            </button>
+        </div>
+    </div>
+</div>
+
+<style lang="scss">
+    .nav-background {
+        position: fixed;
+        inset-inline: 0;
+        top: 0;
+
+        background-color: rgba(136, 176, 255, 0.05);
+    }
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-block: 1rem;
+    }
+
+    .nav-links {
+        ul {
+            display: flex;
+            gap: 1.5rem;
+        }
+    }
+
+    .buttons-container {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .button {
+        border: none;
+        border-radius: 6px;
+        padding: 6px 12px;
+        background-color: rgba(136, 176, 255, 0.15);
+    }
+</style>

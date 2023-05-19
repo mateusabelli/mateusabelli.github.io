@@ -1,209 +1,29 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+import Hero from "../components/hero.astro";
+import Navbar from "../components/navbar.astro";
+import "../styles/index.css";
 ---
 
-<Layout title="Mateus Abelli">
-	<div class="bg-container">
-		<div class="container">
-			<div class="navbar">
-				<b>Mateus Abelli</b>
-				<ul>
-					<li><b>Home</b></li>
-					<li>About</li>
-					<li>Portfolio</li>
-					<li>Contact</li>
-				</ul>
-				<button>Download CV</button>
-			</div>
-			<div class="hero">
-				<div>
-					<h1>I'm<br>Mateus <span class="hero-word">Abelli</span></h1>
-					<div class="hero-line"></div>
-					<p>Software Developer - Open Source Contributor & Developer</p>
-				</div>
-				<div></div>
-			</div>
-			<div class="warning">
-				<p>🚧 Website under development 🚧</p>
-			</div>
-		</div>
-		<div class="bg">
-			<div class="upper-bg"></div>
-			<div class="square">
-				<div class="line"></div>
-				<div class="inner-pad">
-				</div>
-				<div class="inner-square">
-					<div class="square-retainer">
-						<div class="square-picture">
-							<img src="pfp.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="lower-bg"></div>
-		</div>
-	</div>
-</Layout>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-<style>
-	:root {
-		color-scheme: dark;
-		--clr-upper-bg: #232a35;
-		--clr-lower-bg: #222831;
-		--clr-lines: #00ADB5;
-	}
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;500&family=Roboto:wght@700&display=swap"
+			rel="stylesheet"
+		/>
 
-	html {
-		background-color: var(--clr-upper-bg);
-		display: grid;
-		height: 100vh;
-		font-size: 1.125rem;
-		box-sizing: border-box;
-	}
-	.warning {
-		margin-top: 5rem;
-		text-align: center;
-		padding: 0.5rem;
-		background-color: var(--clr-upper-bg);
-		border: 2px solid var(--clr-lines);
-		border-radius: 0.5rem;
-		width: max-content;
-	}
-
-	.navbar, .navbar > ul {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 1rem;
-		list-style: none;
-	}
-
-	.hero {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		align-items: center;
-		height: 40%;
-	}
-
-	.hero-line {
-		height: 4px;
-		background-color: var(--clr-lines);
-		width: 130px;
-	}
-
-	.hero-word {
-		color: var(--clr-lines);
-	}
-
-	.square-picture > img {
-		max-height: 100%;
-		max-width: 100%;
-		transform: scale(1, calc(1/0.8));
-	}
-
-	.square-retainer {
-		overflow: hidden;
-		position: absolute;
-		top: -8rem;
-		bottom: 0;
-		right: 0;
-		left: -8rem;
-		border-radius: 2rem;
-	}
-
-	.square-picture {
-		transform: translate(3%, 8%) rotate(-45deg);
-	}
-
-	.container {
-		max-width: 40rem;
-		margin-inline: auto;
-		height: 100%;
-		margin-bottom: 10rem;
-	}
-
-	.bg-container {
-		position: relative;
-		overflow: hidden;
-		height: 100%;
-	}
-
-	.bg {
-		display: flex;
-		align-items: center;
-		transform: translate(20%, 0);
-		position: absolute;
-		top: 0;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		z-index: -1;
-	}
-
-	.upper-bg {
-		position: absolute;
-		background-color: var(--clr-upper-bg);
-		background-image: url("/patterns.png");
-		opacity: 0.05;
-		top: -50%;
-		right: -50vw;
-		left: -50vw;
-		height: 100%;
-	}
-
-	.lower-bg {
-		position: absolute;
-		background-color: var(--clr-lower-bg);
-		top: 50%;
-		right: -50vw;
-		left: -50vw;
-		height: 100%;
-		z-index: -1;
-	}
-
-	.inner-square {
-		position: absolute;
-		height: 260px;
-		width: 260px;
-		background-color: var(--clr-lines);
-		border-radius: 2rem;
-		transition: box-shadow 0.5s;
-	}
-
-	.inner-square:hover {
-		box-shadow: 0 0 50px var(--clr-lines);
-	}
-
-	.square {
-		position: relative;
-		margin: 0 auto;
-		height: 300px;
-		width: 300px;
-		border-bottom: 3px solid var(--clr-lines);
-		border-right: 3px solid var(--clr-lines);
-		border-bottom-right-radius: 2rem;
-		transform: scale(1, 0.8) rotate(45deg);
-	}
-
-	.line {
-		position: absolute;
-		transform: rotate(-45deg);
-		top: 50%;
-		right: -100vw;
-		left: -100vw;
-		border-bottom: 2px solid var(--clr-lines);
-		background-color: white;
-	}
-
-	.inner-pad {
-		background-color: var(--clr-upper-bg);
-		position: absolute;
-		border-bottom-right-radius: 2rem;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-</style>
+		<meta name="generator" content={Astro.generator} />
+		<title>Mateus Abelli</title>
+	</head>
+	<body>
+		<Navbar />
+		<Hero />
+		<h1>Hello there!</h1>
+	</body>
+</html>

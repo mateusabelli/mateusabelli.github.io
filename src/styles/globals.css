@@ -1,0 +1,84 @@
+:root {
+    --clr-background: #21262D;
+
+    --screen-lg: 60rem;
+
+    --ff-body: 'Poppins', sans-serif;
+    --ff-heading: 'Inter', sans-serif;
+    --ff-subheading: 'Roboto', sans-serif;
+
+    --fs-body: 1.15rem;
+    --fs-body-small: 1rem;
+    --fs-heading: 3rem;
+    --fs-subheading: 1.5rem;
+    --fs-hero: 4rem;
+}
+
+.body-text {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+}
+
+.body-text-small {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body-small);
+}
+
+.heading-text {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-heading);
+}
+
+.subheading-text {
+    font-family: var(--ff-subheading);
+    font-size: var(--fs-subheading);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero-heading {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-hero);
+    line-height: 1.2;
+}
+
+.hero-text {
+    font-family: var(--ff-body);
+    font-size: var(--fs-subheading);
+}
+
+.hero-subheading {
+    font-family: var(--ff-body);
+    font-size: var(--fs-subheading);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container {
+    max-width: var(--screen-lg);
+    margin-inline: auto;
+}
+
+.gradient-text {
+  background: linear-gradient(to top left, #9DE8FF, #6D9FFF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-color: var(--clr-background);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        /* CHANGE ME TO LIGHT */
+        color-scheme: dark;
+    }
+}
