@@ -1,0 +1,45 @@
+[data-theme="dark"]:root {
+  color-scheme: dark;
+  --clr-background: hsl(215, 15%, 15%);
+  --clr-nav-background: hsla(220, 100%, 77%, 0.05);
+  --clr-button-background: hsla(220, 100%, 77%, 0.15);
+  --clr-hero-background: hsl(220, 19%, 12%);
+  --clr-hero-gradient-top: hsl(220, 19%, 12%);
+  --clr-hero-gradient-bottom: hsl(219, 25%, 20%);
+  --clr-hero-picture-blur: hsl(25, 52%, 71%);
+}
+
+[data-theme="light"]:root {
+  color-scheme: light;
+  --clr-nav-background: hsla(220, 100%, 77%, 0.05);
+  --clr-button-background: hsla(220, 100%, 77%, 0.15);
+  --clr-background: hsl(215, 39%, 83%);
+  --clr-hero-background: hsl(215, 39%, 66%);
+  --clr-hero-gradient-top: hsl(215, 39%, 66%);
+  --clr-hero-gradient-bottom: hsl(219, 25%, 20%);
+  --clr-hero-picture-blur: hsl(25, 52%, 71%);
+}
+
+:root {
+  --ff-body: 'Poppins', sans-serif;
+  --ff-heading: 'Inter', sans-serif;
+  --ff-subheading: 'Roboto', sans-serif;
+
+  --screen-lg: 62rem;
+  --screen-md: 40rem;
+  --screen-sm: 25rem;
+
+  --fs-body: 1rem;
+  --fs-body-small: 0.875rem;
+  --fs-heading: 1.75rem;
+  --fs-subheading: 1.1rem;
+  --fs-hero: 2.625rem
+}
+
+@media (min-width: 600px) {
+  :root {
+    --fs-heading: 2rem;
+    --fs-subheading: 1.25rem;
+    --fs-hero: 4rem;
+  }
+}

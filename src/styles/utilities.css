@@ -1,0 +1,80 @@
+.body-text {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+}
+
+.body-text-small {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body-small);
+}
+
+.heading-text {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-heading);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subheading-text {
+  font-family: var(--ff-subheading);
+  font-size: var(--fs-subheading);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hero-heading {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-hero);
+  line-height: 1.2;
+}
+
+.hero-text {
+  font-family: var(--ff-body);
+  font-size: var(--fs-subheading);
+}
+
+.hero-subheading {
+  font-family: var(--ff-body);
+  font-size: var(--fs-subheading);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container {
+  max-width: var(--screen-lg);
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+}
+
+.gradient-text {
+  background: linear-gradient(to top left, #9DE8FF, #6D9FFF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  background-color: var(--clr-button-background);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.button:focus-visible,
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-link {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  transition: background-color 0.15s;
+}
+
+.button-link:focus-visible,
+.button-link:hover {
+  background-color: var(--clr-button-background);
+}
