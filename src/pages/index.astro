@@ -1,6 +1,9 @@
 ---
+import About from "../components/about.astro";
+import Contact from "../components/contact.astro";
 import Hero from "../components/hero.astro";
 import Navbar from "../components/navbar.astro";
+import Projects from "../components/projects.astro";
 import "../styles/index.css";
 ---
 
@@ -23,11 +26,11 @@ import "../styles/index.css";
 	</head>
 	<body>
 		<Navbar />
-		<Hero />
-		<section id="about">About section</section>
-		<section id="projects">Projects section</section>
-		<section id="blog">Blog section</section>
-		<section id="sandbox">Sandbox section</section>
-		<section id="contact">Contact section</section>
+		<main>
+			<Hero />
+			<About />
+			<Projects />
+			<Contact />
+		</main>
 	</body>
 </html>
