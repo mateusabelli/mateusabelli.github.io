@@ -1,56 +1,83 @@
 <div class="nav-background">
-    <div class="nav-container container">
-        <nav class="nav-links body-text">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="buttons-container body-text-small">
-            <button class="button">
-                en-US
-            </button>
-            <button class="button">
-                Light
-            </button>
-        </div>
+  <div class="nav-container container">
+    <nav class="nav-links body-text">
+      <ul>
+        <li><a href="#home" class="button-link">Home</a></li>
+        <li><a href="#about" class="button-link">About</a></li>
+        <li><a href="#projects" class="button-link">Projects</a></li>
+        <li><a href="#contact" class="button-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="buttons-container body-text-small">
+      <button class="button">en-US</button>
+      <button class="button">Light</button>
+      <button class="button nav-menu">Menu</button>
     </div>
+  </div>
 </div>
 
 <style lang="scss">
-    .nav-background {
-        position: fixed;
-        inset-inline: 0;
-        top: 0;
+  .nav-background {
+    position: fixed;
+    inset-inline: 0;
+    top: 0;
+    // background-color: var(--clr-nav-background);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+  }
 
-        background-color: rgba(136, 176, 255, 0.05);
-    }
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-block: 1rem;
+  }
 
-    .nav-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-block: 1rem;
+  .nav-links {
+    display: none;
+  }
+
+  .buttons-container {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 600px) {
+    .nav-menu {
+      display: none;
     }
 
     .nav-links {
-        ul {
-            display: flex;
-            gap: 1.5rem;
-        }
+      display: unset;
     }
 
-    .buttons-container {
+    .nav-background {
+      position: fixed;
+      inset-inline: 0;
+      top: 0;
+      background-color: var(--clr-nav-background);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-links {
+      ul {
         display: flex;
-        gap: 1.5rem;
+        gap: 1rem;
+        a {
+          color: unset;
+          display: block;
+          text-decoration: none;
+        }
+      }
     }
-
-    .button {
-        border: none;
-        border-radius: 6px;
-        padding: 6px 12px;
-        background-color: rgba(136, 176, 255, 0.15);
+    .nav-menu {
+      display: none;
     }
+  }
 </style>
