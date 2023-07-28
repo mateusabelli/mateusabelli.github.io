@@ -7,7 +7,7 @@ date: 2023-07-27 21:40:00 -0300
 
 ## Introdução
 
-Antes de entedermos o que é o ágil ou o que é ser ágil, devemos conhecer o contexto atual do nosso mundo e com isso poder conciliar a metodológia ágil aos nossos desafios de um mundo **VUCA** ou **BANI**.
+Antes de entendermos o que é o ágil ou o que é ser ágil, devemos conhecer o contexto atual do nosso mundo e com isso poder conciliar a metodologia ágil aos nossos desafios de um mundo **VUCA** ou **BANI**.
 
 ## O que é o mundo VUCA?
 
@@ -59,11 +59,11 @@ Nesse novo pensamento, a fragilidade causada pela maximização constante do luc
 >
 > <cite>&mdash; Steve Denning</cite>
 
-O ágil vai além das ferramentas, métodos, ou práticas (SCRUM, XP, etc...). **É ser adaptável as mudanças** e ter disciplina para busca contínua de otimização no meio de trabalho e evitar os desperdiços. **Ágil é um MINDSET!**
+O ágil vai além das ferramentas, métodos, ou práticas (SCRUM, XP, etc...). **É ser adaptável as mudanças** e ter disciplina para busca contínua de otimização no meio de trabalho e evitar os desperdícios. **Ágil é um MINDSET!**
 
 Ser ágil não é ser veloz na entrega de um produto como um todo, mas sim veloz na entrega de partes dele que agregam valor ao cliente e geram o feedback rápido, direcionando o desenvolvimento no caminho certo, de forma eficiente e consequentemente entregando mais rápido aquilo que o cliente realmente deseja.
 
-O mindset ágil é **defindo por 4 valores**, segundo o [Manifesto para Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/manifesto.html):
+O mindset ágil é **definido por 4 valores**, segundo o [Manifesto para Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/manifesto.html):
 
 1. **Indivíduos e interações** mais que processos e ferramentas;
 
@@ -101,9 +101,9 @@ Além disso, é também **guiado por 12 princípios**, contidos em [Princípios 
 
 Steve Denning escreveu em seu livro _Age of Agile_ o que ele considera ser **as 3 Leis do Ágil**
 
-1. **A Lei dos Times Pequenos (The Law of Small Teams)** &mdash; Equipes grandes não são eficientes, existentes diversos problemas incluindo a crescente dificuldade de comunicaçãos gerada pelos links de comunição que aumentam a cada membro novo inserido. É um mito dizer que o desenvolvimento acelerará com a adição de novos membros. Por maior que seja o projeto, a solução é quebra-lo em pequenas partes para que equipes pequenas possam contribuir em ciclos iterativos curtos e auxiliar umas às outras durante o desenvolvimento.
+1. **A Lei dos Times Pequenos (The Law of Small Teams)** &mdash; Equipes grandes não são eficientes, existentes diversos problemas incluindo a crescente dificuldade de comunicações gerada pelos links de comunicação que aumentam a cada membro novo inserido. É um mito dizer que o desenvolvimento acelerará com a adição de novos membros. Por maior que seja o projeto, a solução é quebra-lo em pequenas partes para que equipes pequenas possam contribuir em ciclos iterativos curtos e auxiliar umas às outras durante o desenvolvimento.
 
-2. **A Lei do Cliente (The Law of the Customer)** &mdash; Temos que ter uma obsessão em fazer entregas contínuas de valor ao cliente. Não temos tempo de adivinhar o que o cliente quer ou quais são as suas prioridades, temos que mante-lo ao centro durante todo o desenvolvimento, mantendo o projeto constantemente alinhado aos objetivos do cliente.
+2. **A Lei do Cliente (The Law of the Customer)** &mdash; Temos que ter uma obsessão em fazer entregas contínuas de valor ao cliente. Não temos tempo de adivinhar o que o cliente quer ou quais são as suas prioridades, temos que mantê-lo ao centro durante todo o desenvolvimento, mantendo o projeto constantemente alinhado aos objetivos do cliente.
 
 3. **A Lei das Redes (The Law of Networks)** &mdash; Devemos coordenar o trabalho em uma rede interativa, precisamos de apoio de diferentes áreas para consolidar o projeto. As organizações piramidais não são tão eficientes em um mundo VUCA quanto organizações flexíveis e em rede.
 
@@ -123,13 +123,13 @@ Steve Denning escreveu em seu livro _Age of Agile_ o que ele considera ser **as 
 
 2. A Segunda Onda: **Ágil em Escala** &mdash; Por volta de 2010 surgiu a segunda onda, essa focada na escala do ágil em organizações de grande porte.
 
-3. A Terceira Onda: **Business Agility** &mdash; Essa é nossa atual onda, a qual vemos o ágil voltado para os négocios.
+3. A Terceira Onda: **Business Agility** &mdash; Essa é nossa atual onda, a qual vemos o ágil voltado para os negócios.
 
 ## O que é Business Agility?
 
 O Business Agility, ou modelo ágil de negócios, é um modelo em que a organização tem o cliente no centro e se adapta de forma flexível para trazer resultados de valor ao cliente e também para se manterem competitivas no mercado.
 
-Isso é possível atraves de um trabalho colaborativo e inspirador em que a empresa não aceita seu status quo e está sempre em busca da excelência. Usando um **Mapeamento de Fluxo de Valor** é possível entender exatamente os pontos de possíveis melhorias e se ajustar a eles.
+Isso é possível através de um trabalho colaborativo e inspirador em que a empresa não aceita seu status quo e está sempre em busca da excelência. Usando um **Mapeamento de Fluxo de Valor** é possível entender exatamente os pontos de possíveis melhorias e se ajustar a eles.
 
 ## O que é o Mapeamento de Fluxo de Valor?
 
@@ -173,7 +173,7 @@ Veja a seguir algumas dicas:
 
 - Termine as atividades que sejam de maior valor primeiro;
 
-- Torne as atividades visíveis e monite constantemente;
+- Torne as atividades visíveis e monitore constantemente;
 
 - Feedbacks recorrentes são essenciais;
 
@@ -191,7 +191,7 @@ Veja a seguir algumas dicas:
 
 - Pense simples e aja rápido;
 
-- Alinhe restrições imporantes e resultados esperados;
+- Alinhe restrições importantes e resultados esperados;
 
 - Otimize a comunicação;
 
@@ -205,4 +205,4 @@ Veja a seguir algumas dicas:
 
 ---
 
-Esse artigo foi escrito com base em conteúdos disponíveis na internet e anotações de aulas da professora Isabella de Araújo Fonseca Campos no curso de Pós-graduação EAD da PUC Minas.
+Esse artigo foi escrito com base em conteúdos disponíveis na internet e anotações de aulas da professora Isabella de Araújo Fonseca Campos no curso de Pós-graduação EAD de Engenharia de Software da PUC Minas.
