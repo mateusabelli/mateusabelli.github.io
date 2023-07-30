@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: mateusabelli/mateusabelli.github.io
+  name: git-gateway
   branch: main
   site_domain: mateusabelli.netlify.app
 
