@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Olá mundo!
-author: Mateus Abelli
 date: 2023-07-23 15:20:05 -0300
+categories: []
+tags: []
 ---
 
 Após configurar o `Jekyll`, gostaria de experimentar um pouco com cada elemento disponível, cabeçalhos, listas, tabelas, etc...

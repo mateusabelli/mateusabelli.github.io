@@ -1,8 +1,8 @@
 ---
-layout: post
 title: O Ágil fora da TI
-author: Mateus Abelli
 date: 2023-07-27 21:40:00 -0300
+categories: []
+tags: []
 ---
 
 ## Introdução
